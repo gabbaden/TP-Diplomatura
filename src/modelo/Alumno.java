@@ -1,6 +1,6 @@
 package modelo;
 
-public class Alumno {
+public abstract class Alumno {
 
 	private String nombre;
 	private String apellido;
@@ -8,6 +8,7 @@ public class Alumno {
 	private int nota;
 	private String curso;
 	private String estado;
+	private int valorcuota;
 	
 	
 	public String getNombre() {
@@ -45,6 +46,12 @@ public class Alumno {
 	}
 	public void setEstado(String estado) {
 		this.estado = estado;
+	}
+	public int getValorcuota() {
+		return valorcuota;
+	}
+	public void setValorcuota(int valorcuota) {
+		this.valorcuota = valorcuota;
 	}
 	
 }
