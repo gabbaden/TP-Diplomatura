@@ -15,7 +15,7 @@ public class AlumnoFactory {
 	
 	public Alumno alumnoFactory(){
 		
-		Iterator<String> iter = datos.nombres.iterator();
+		Iterator<String> iter = datos.getNombres().iterator();
 		
 		while(iter.hasNext()){
 		
